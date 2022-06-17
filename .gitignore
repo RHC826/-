@@ -1,3 +1,6 @@
 *.md
 !README.md
 desktop/
+!desktop/.gitignore
+document/
+!document/.gitignore
