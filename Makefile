@@ -9,7 +9,7 @@ clean:
 	rm -rf *.html
 	
 slide: 
-	ls -t *.md | head -n 1 | xargs -i pandoc -s -t revealjs -o res.html --metadata title="last update `date "+%Y-%m%d-%H%M%S"`" {}
+	ls -t *.md | head -n 1 | xargs -i pandoc -s -t revealjs -o slide.html --metadata title="last update `date "+%Y-%m%d-%H%M%S"`" {}
 
 
 
