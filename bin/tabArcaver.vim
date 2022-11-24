@@ -2,7 +2,7 @@
 
 %s/$/  /
 %d
-r ../template/template_dairy.txt
+r ../template/template_logging.txt
 6pu
 1d
 %s/<md.*/今日のタブ/
